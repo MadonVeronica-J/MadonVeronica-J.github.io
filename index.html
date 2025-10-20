@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Madon Veronica | Portfolio</title>
+
+  <!-- Fonts & icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" aria-label="Main navigation">
+    <div class="brand">VERO73</div>
+    <nav>
+      <ul id="side-links">
+        <li><a href="#hero" data-target="hero" class="active">Home</a></li>
+        <li><a href="#about" data-target="about">About</a></li>
+        <li><a href="#projects" data-target="projects">Projects</a></li>
+        <li><a href="#technical-expertise" data-target="skills">Technical Expertise</a></li>
+        <li><a href="#certifications" data-target="certifications">Certifications</a></li>
+        <li><a href="#contact" data-target="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="sidebar-footer">
+      <a href="https://github.com/MadonVeronica-J" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/madon-veronica-j-1811b1356/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+
+    <!-- HERO -->
+    <section id="hero" class="hero" data-aos="fade-right" data-aos-offset="200" data-aos-duration="900" data-aos-easing="ease-in-out">
+      <div class="hero-left" data-aos="zoom-in" data-aos-delay="150">
+        <img src="images.png" alt="Madon Veronica" class="profile-pic">
+      </div>
+
+      <div class="hero-right">
+        <h1 class="intro-line" data-aos="fade-up" data-aos-delay="250">
+          <span class="greeting">Hi, I'm</span>
+          <strong class="name">Madon Veronica</strong>
+        </h1>
+
+        <p class="tagline" data-aos="fade-up" data-aos-delay="350">Data Science Graduate • Aspiring Software Developer • Backend Development • Problem Solver</p>
+
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="450">
+          <a class="btn primary" href="Madon_Veronica_Resume.pdf" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+          <a class="btn outline" href="#contact">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="quick-info" data-aos="fade-up" data-aos-delay="550">
+          <span><i class="fas fa-map-marker-alt"></i> Madurai, Tamil Nadu, India</span>
+          <span><i class="fas fa-code"></i> Java, Python, Spring Boot, Django</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about" data-aos="fade-up" data-aos-offset="150" data-aos-duration="700">
+      <div class="container">
+        <h2 class="section-title" data-aos="flip-left" data-aos-delay="120">About Me</h2>
+        <div class="about-card" data-aos="fade-up" data-aos-delay="220">
+          <p>
+            I'm <strong>Madon Veronica</strong>, an aspiring Software Developer passionate about building clean, efficient, and user-friendly applications.
+            I love solving problems through code and turning ideas into impactful digital solutions. My interests lie in developing applications using Java and Python, web technologies, and software design principles.
+
+
+          </p>
+          <p class="about-more">
+            I enjoy learning new tools and frameworks that help me grow both technically and creatively. I’m also a strong believer in teamwork, continuous learning, and writing code that makes life simpler for users.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+<section id="projects" class="section projects" data-aos="fade-up" data-aos-offset="180" data-aos-duration="800">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-down" data-aos-delay="100">Projects</h2>
+
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="proj-image">
+          <img src="Event_Management.jpg" alt="Event Management Screenshot">
+        </div>
+        <div class="proj-content">
+          <h3>Event Management System</h3>
+          <p>Platform for planning college events with admin approval, department-based participant sharing, attendance tracking, and certificate generation. Built with Python Django.</p>
+          <a href="https://github.com/MadonVeronica-J/Event_Management_System" target="_blank" class="btn small">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="250">
+        <div class="proj-image">
+          <img src="Text_Summarization.jpg" alt="Text Summarizer Screenshot">
+        </div>
+        <div class="proj-content">
+          <h3>Text Summarizer</h3>
+          <p>Extractive & abstractive text summarizer with adjustable length options and downloadable results. Built with Python Django and a dynamic frontend dashboard.</p>
+          <a href="https://github.com/MadonVeronica-J/Text_Summarizer" target="_blank" class="btn small">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card" data-aos="fade-up" data-aos-delay="350">
+        <div class="proj-image">
+          <img src="Cancer_Prediction.jpg" alt="Your Third Project Screenshot">
+        </div>
+        <div class="proj-content">
+          <h3>Cancer Cell Prediction</h3>
+          <p>A machine learning model to classify cancer cells as benign or malignant based on medical data. Utilized algorithms like Logistic Regression, Decision Tree, and Random Forest for classification. </p>
+          <a href="https://github.com/MadonVeronica-J/Cancer_Cell_Prediction" target="_blank" class="btn small">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="technical-expertise" class="section expertise" data-aos="fade-up" data-aos-offset="150" data-aos-duration="700">
+  <div class="container">
+    <h2 class="section-title" data-aos="zoom-in" data-aos-delay="120">Technical Expertise</h2>
+
+    <div class="expertise-layout">
+      <div class="expertise-group" data-aos="fade-up" data-aos-delay="150">
+        <h3>Programming Languages</h3>
+        <p>Java · Python · C · R</p>
+      </div>
+
+      <div class="expertise-group" data-aos="fade-up" data-aos-delay="200">
+        <h3>FrameWorks</h3>
+        <p>SpringBoot · Django</p>
+      </div>
+
+      <div class="expertise-group" data-aos="fade-up" data-aos-delay="250">
+        <h3>Databases</h3>
+        <p>MySQL · SQLite · MongoDB</p>
+      </div>
+
+      <div class="expertise-group" data-aos="fade-up" data-aos-delay="300">
+        <h3>Data Visualization</h3>
+        <p>Matplotlib · Seaborn · Tableau · Power BI</p>
+      </div>
+
+      <div class="expertise-group" data-aos="fade-up" data-aos-delay="350">
+        <h3>Machine Learning</h3>
+        <p>Scikit-learn · TensorFlow · Pandas · NumPy · NLP</p>
+      </div>
+
+      <div class="expertise-group" data-aos="fade-up" data-aos-delay="400">
+        <h3>Data Analysis</h3>
+        <p>Pandas · Excel · Weka · Exploratory Data Analysis (EDA)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section certifications" data-aos="fade-down" data-aos-offset="180" data-aos-duration="700">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="120">Certifications</h2>
+        <div class="cert-grid">
+          <div class="cert-card" data-aos="zoom-in" data-aos-delay="150">
+            <i class="fas fa-certificate"></i>
+            <h4>Machine Learning — NPTEL</h4>
+            <p class="muted">Python Libraries, ML Algorithms and Supervised & Unsupervised Learning</p>
+          </div>
+          <div class="cert-card" data-aos="zoom-in" data-aos-delay="220">
+            <i class="fas fa-certificate"></i>
+            <h4>IBM Data Science Professional Certificate — Coursera</h4>
+            <p class="muted">Web Scraping, Data Cleaning, Visualization and Analysis</p>
+          </div>
+          <div class="cert-card" data-aos="zoom-in" data-aos-delay="290">
+            <i class="fas fa-certificate"></i>
+            <h4>DSA — NPTEL</h4>
+            <p class="muted">Data Structures and Algorithms in Java. Arrays, Strings, Linked Lists, Trees and Graphs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact" data-aos="fade-up" data-aos-offset="120" data-aos-duration="700">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-right" data-aos-delay="120">Contact</h2>
+        <div class="contact-box" data-aos="fade-left" data-aos-delay="220">
+          <p class="muted">Want to collaborate? Connect with Me.</p>
+          <div class="contact-list">
+            <p><i class="fas fa-envelope"></i> <a href="mailto:madon.veronica73@gmail.com">madon.veronica73@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> +91 6382647976</p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/madon-veronica-j-1811b1356/" target="_blank">Madon Veronica J</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Madon Veronica — Built using HTML, CSS and JavaScript</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- AOS & script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
