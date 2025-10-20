@@ -267,3 +267,73 @@ body{
   .main-content{padding:18px}
   .project-grid{grid-template-columns:1fr}
 }
+
+/* ===== MOBILE SIDEBAR FIX ===== */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+
+  .sidebar nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .main-content {
+    margin-left: 0;
+    margin-top: 80px;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left, .hero-right {
+    flex: unset;
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 12px;
+  }
+
+  .intro-line {
+    font-size: 1.8rem;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+  }
+
+  .quick-info {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .proj-image img {
+    height: 180px;
+  }
+}
